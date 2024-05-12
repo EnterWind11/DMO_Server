@@ -68,12 +68,12 @@ namespace LoginServer
             }
 
             listenerSocket?.Close();
-            
-            private static byte[] GeneratePacket(int index)
-            {
-                // Simulate generating a packet based on some index
-                return BitConverter.GetBytes(index);
-            }
+        }
+        
+        private static byte[] GeneratePacket(int index)
+        {
+            // Simulate generating a packet based on some index
+            return BitConverter.GetBytes(index);
         }
         
         private static string GetSocketErrorDescription(SocketError errorCode)
