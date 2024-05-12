@@ -1,0 +1,15 @@
+D:\Programming\Rider\DMO_Server\LoginServer\bin\Debug\net6.0\LoginServer.exe
+D:\Programming\Rider\DMO_Server\LoginServer\bin\Debug\net6.0\LoginServer.deps.json
+D:\Programming\Rider\DMO_Server\LoginServer\bin\Debug\net6.0\LoginServer.runtimeconfig.json
+D:\Programming\Rider\DMO_Server\LoginServer\bin\Debug\net6.0\LoginServer.dll
+D:\Programming\Rider\DMO_Server\LoginServer\bin\Debug\net6.0\ref\LoginServer.dll
+D:\Programming\Rider\DMO_Server\LoginServer\bin\Debug\net6.0\LoginServer.pdb
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.csproj.AssemblyReference.cache
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.AssemblyInfoInputs.cache
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.AssemblyInfo.cs
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.csproj.CoreCompileInputs.cache
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.dll
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\ref\LoginServer.dll
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.pdb
+D:\Programming\Rider\DMO_Server\LoginServer\obj\Debug\net6.0\LoginServer.genruntimeconfig.cache

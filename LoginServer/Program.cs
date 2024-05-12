@@ -6,7 +6,7 @@ namespace LoginServer
     {
         public static async Task Main(string[] args)
         {
-            await GameServer.RunServerAsync();
+            await LoginServer.RunServerAsync();
         }
     }
 }
