@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace LoginServer
+namespace WorldServer1
 {
-    public static class PacketData
+    public static class WorldData
     {
         public static byte[] helloToClient = new byte[]
         {
@@ -32,4 +32,5 @@ namespace LoginServer
             0x1a
         };
     }
+}
 }

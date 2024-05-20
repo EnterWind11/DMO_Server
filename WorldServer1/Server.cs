@@ -26,7 +26,7 @@ namespace WorldServer1
                 {
                     using Socket clientSocket = await listenerSocket.AcceptAsync();
                     Console.WriteLine("Client connected");
-                    await clientSocket.SendAsync(PacketData.helloToClient, SocketFlags.None);
+                    await clientSocket.SendAsync(WorldData.helloToClient, SocketFlags.None);
 
                     while (true)
                     {
@@ -42,7 +42,7 @@ namespace WorldServer1
                         var ms = new MemoryStream(receiveBuffer);
                         var binaryReader = new BinaryReader(ms);
                         short packetSize = binaryReader.ReadInt16();
-                        var packetId = (PacketID)binaryReader.ReadInt16();
+                        var packetId = (WorldID)binaryReader.ReadInt16();
                         Console.WriteLine($"Packet size: {packetSize}, Packet ID: {(int)packetId}");
 
                         await PacketLogic.HandlePacket(clientSocket, packetId);
