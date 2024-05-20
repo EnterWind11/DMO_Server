@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{00E63E59-96AD-4878-9383-3F31C22CE161}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameServer", "GameServer", "{00E63E59-96AD-4878-9383-3F31C22CE161}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginServer", "LoginServer\LoginServer.csproj", "{8AFDC54F-500D-4161-87AC-31635E61BCE2}"
 EndProject
