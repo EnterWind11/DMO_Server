@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "H+FBPpslCElNIk4V/NPbI+A8rAbGQ19TO8QgeyT5MwuAleVuM6EUOLaIga1IAZ8jUShT+z5LJ6ehiK+q2gVL7A==",
+  "dgSpecHash": "mTelpximw6tbB7HYeRQcphnql5kygviN3AVK/11X/ajk5lm8ay80ByYGBfJ/zDWCbdkek6d1MrEBFcljbRpvvg==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Rider\\DMO_Server\\LoginServer\\LoginServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Suhairi\\Documents\\C#\\DMO_Server\\LoginServer\\LoginServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

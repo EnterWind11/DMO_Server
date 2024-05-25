@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "civsdd46WeCYDvcyoHklal/GOpioyDpNJD0p/mdNYlyb1pumn1XIeJosC+0p+J4fxgK0hz27ehVMMUpwzgxG0A==",
+  "dgSpecHash": "DQVd6ov14YqmR5963hlftnetVgC5319wx1g+0v/Wiwpjr+mclFW6Xn81PWA1cy8v9p9n4bTNzYqwe3KzZrZWHg==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Rider\\DMO_Server\\WorldServer1\\WorldServer1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Suhairi\\Documents\\C#\\DMO_Server\\WorldServer1\\WorldServer1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Suhairi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
