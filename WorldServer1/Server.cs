@@ -45,7 +45,7 @@ namespace WorldServer1
                         var packetId = (WorldID)binaryReader.ReadInt16();
                         Console.WriteLine($"Packet size: {packetSize}, Packet ID: {(int)packetId}");
 
-                        await PacketLogic.HandlePacket(clientSocket, packetId);
+                        await WorldLogic.HandlePacket(clientSocket, packetId);
                         
                     }
                 }

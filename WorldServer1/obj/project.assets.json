@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Suhairi\\.nuget\\packages\\": {}
+    "C:\\Users\\Kaito\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Suhairi\\Documents\\C#\\DMO_Server\\WorldServer1\\WorldServer1.csproj",
+      "projectUniqueName": "D:\\Programming\\Rider\\DMO_Server\\WorldServer1\\WorldServer1.csproj",
       "projectName": "WorldServer1",
-      "projectPath": "C:\\Users\\Suhairi\\Documents\\C#\\DMO_Server\\WorldServer1\\WorldServer1.csproj",
-      "packagesPath": "C:\\Users\\Suhairi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Suhairi\\Documents\\C#\\DMO_Server\\WorldServer1\\obj\\",
+      "projectPath": "D:\\Programming\\Rider\\DMO_Server\\WorldServer1\\WorldServer1.csproj",
+      "packagesPath": "C:\\Users\\Kaito\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\Rider\\DMO_Server\\WorldServer1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Suhairi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kaito\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -54,30 +59,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }
