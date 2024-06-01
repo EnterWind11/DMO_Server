@@ -13,15 +13,15 @@ public class WorldLogic
                 await clientSocket.SendAsync(WorldData.secondPacketFromServerToClient, SocketFlags.None);
                 break;
 
-            case WorldID.CHARA_SELECTION:
+            case WorldID.SERVER_SELECTION:
                 Console.WriteLine("Received server selection packet");
                 await clientSocket.SendAsync(WorldData.thirdPacketFromServerToClient, SocketFlags.None);
                 break;
 
-            /*case WorldID.CHARA_SELECTION:
+            case WorldID.CHARA_SELECTION:
                 Console.WriteLine("Received character selection packet");
                 await clientSocket.SendAsync(WorldData.fourthPacketFromServerToClient, SocketFlags.None);
-                break;*/
+                break;
 
             /*case WorldID.CONFIRM:
                 Console.WriteLine("Received confirmation packet");
