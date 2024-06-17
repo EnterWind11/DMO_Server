@@ -1,4 +1,191 @@
-﻿using System;
+﻿// PacketData.cs
+using System;
+using System.IO;
+using System.Text;
+
+namespace LoginServer
+{
+    public static class PacketData
+    {
+        public struct HelloPacket
+        {
+            public ushort PacketType;
+            public byte[] Data;
+
+            public static byte[] Serialize(HelloPacket packet)
+            {
+                using (var ms = new MemoryStream())
+                {
+                    using (var bw = new BinaryWriter(ms, Encoding.UTF8))
+                    {
+                        bw.Write(packet.PacketType);
+                        bw.Write(packet.Data.Length);
+                        bw.Write(packet.Data);
+                    }
+                    return ms.ToArray();
+                }
+            }
+
+            public static HelloPacket Deserialize(byte[] data)
+            {
+                using (var ms = new MemoryStream(data))
+                {
+                    using (var br = new BinaryReader(ms, Encoding.UTF8))
+                    {
+                        return new HelloPacket
+                        {
+                            PacketType = br.ReadUInt16(),
+                            Data = br.ReadBytes(br.ReadInt32())
+                        };
+                    }
+                }
+            }
+        }
+
+        public struct LoginPacket
+        {
+            public ushort PacketType;
+            public string Username;
+            public string Password;
+
+            public static byte[] Serialize(LoginPacket packet)
+            {
+                using (var ms = new MemoryStream())
+                {
+                    using (var bw = new BinaryWriter(ms, Encoding.UTF8))
+                    {
+                        bw.Write(packet.PacketType);
+                        bw.Write(packet.Username ?? string.Empty);
+                        bw.Write(packet.Password ?? string.Empty);
+                    }
+                    return ms.ToArray();
+                }
+            }
+
+            public static LoginPacket Deserialize(byte[] data)
+            {
+                using (var ms = new MemoryStream(data))
+                {
+                    using (var br = new BinaryReader(ms, Encoding.UTF8))
+                    {
+                        return new LoginPacket
+                        {
+                            PacketType = br.ReadUInt16(),
+                            Username = br.ReadString(),
+                            Password = br.ReadString()
+                        };
+                    }
+                }
+            }
+        }
+
+        public struct ServerSelectionPacket
+        {
+            public ushort PacketType;
+            public int ServerId;
+
+            public static byte[] Serialize(ServerSelectionPacket packet)
+            {
+                using (var ms = new MemoryStream())
+                {
+                    using (var bw = new BinaryWriter(ms, Encoding.UTF8))
+                    {
+                        bw.Write(packet.PacketType);
+                        bw.Write(packet.ServerId);
+                    }
+                    return ms.ToArray();
+                }
+            }
+
+            public static ServerSelectionPacket Deserialize(byte[] data)
+            {
+                using (var ms = new MemoryStream(data))
+                {
+                    using (var br = new BinaryReader(ms, Encoding.UTF8))
+                    {
+                        return new ServerSelectionPacket
+                        {
+                            PacketType = br.ReadUInt16(),
+                            ServerId = br.ReadInt32()
+                        };
+                    }
+                }
+            }
+        }
+
+        public struct CharacterSelectionPacket
+        {
+            public ushort PacketType;
+            public int CharacterId;
+
+            public static byte[] Serialize(CharacterSelectionPacket packet)
+            {
+                using (var ms = new MemoryStream())
+                {
+                    using (var bw = new BinaryWriter(ms, Encoding.UTF8))
+                    {
+                        bw.Write(packet.PacketType);
+                        bw.Write(packet.CharacterId);
+                    }
+                    return ms.ToArray();
+                }
+            }
+
+            public static CharacterSelectionPacket Deserialize(byte[] data)
+            {
+                using (var ms = new MemoryStream(data))
+                {
+                    using (var br = new BinaryReader(ms, Encoding.UTF8))
+                    {
+                        return new CharacterSelectionPacket
+                        {
+                            PacketType = br.ReadUInt16(),
+                            CharacterId = br.ReadInt32()
+                        };
+                    }
+                }
+            }
+        }
+
+        public struct ConfirmationPacket
+        {
+            public ushort PacketType;
+            public bool IsConfirmed;
+
+            public static byte[] Serialize(ConfirmationPacket packet)
+            {
+                using (var ms = new MemoryStream())
+                {
+                    using (var bw = new BinaryWriter(ms, Encoding.UTF8))
+                    {
+                        bw.Write(packet.PacketType);
+                        bw.Write(packet.IsConfirmed);
+                    }
+                    return ms.ToArray();
+                }
+            }
+
+            public static ConfirmationPacket Deserialize(byte[] data)
+            {
+                using (var ms = new MemoryStream(data))
+                {
+                    using (var br = new BinaryReader(ms, Encoding.UTF8))
+                    {
+                        return new ConfirmationPacket
+                        {
+                            PacketType = br.ReadUInt16(),
+                            IsConfirmed = br.ReadBoolean()
+                        };
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+using System;
 
 namespace LoginServer
 {
@@ -53,7 +240,8 @@ namespace LoginServer
             0xf7, 0x78, 0x5d, 0x51, 0x0e, 0x35, 0x31, 0x2e,
             0x32, 0x31, 0x30, 0x2e, 0x32, 0x32, 0x33, 0x2e,
             0x31, 0x34, 0x36, 0x00, 0x58, 0x1b, 0x00, 0x00,
-            0x00, 0x1f, 0x1a*/
+            0x00, 0x1f, 0x1a#1#
         };
     }
 }
+*/

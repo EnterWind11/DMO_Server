@@ -1,0 +1,15 @@
+D:\Programming\Rider\DMO_Server\WorldServer1\bin\Debug\net6.0\WorldServer1.exe
+D:\Programming\Rider\DMO_Server\WorldServer1\bin\Debug\net6.0\WorldServer1.deps.json
+D:\Programming\Rider\DMO_Server\WorldServer1\bin\Debug\net6.0\WorldServer1.runtimeconfig.json
+D:\Programming\Rider\DMO_Server\WorldServer1\bin\Debug\net6.0\WorldServer1.dll
+D:\Programming\Rider\DMO_Server\WorldServer1\bin\Debug\net6.0\WorldServer1.pdb
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.AssemblyInfoInputs.cache
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.AssemblyInfo.cs
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.csproj.CoreCompileInputs.cache
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.sourcelink.json
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.dll
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\refint\WorldServer1.dll
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.pdb
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\WorldServer1.genruntimeconfig.cache
+D:\Programming\Rider\DMO_Server\WorldServer1\obj\Debug\net6.0\ref\WorldServer1.dll
